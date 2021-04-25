@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://gabi-podcastr-api.herokuapp.com/'
+  baseURL: process.env.BACKEND_API_URL
 })
